@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HER BITE - Fun & Colorful Gummies</title>
+    <title>HER BITE — Premium Gourmet Gummies</title>
+    <meta name="description" content="Artisan-crafted, all-natural gummies made with real fruit extracts and premium ingredients.">
+    <meta name="theme-color" content="#fbfbfd">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Quicksand:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="navbar">
         <div class="top-banner">
             <div class="banner-content">
-                <span class="banner-text">🎉 BLACK FRIDAY SALE: 30% OFF + FREE SHIPPING ON ORDERS $25+! Use Code: SWEET30</span>
+                <span class="banner-text">Black Friday Sale — 30% off + free shipping on orders $25+. Use code SWEET30</span>
                 <button class="banner-close">✕</button>
             </div>
         </div>
@@ -20,9 +24,9 @@
                 <span class="logo-text">HER BITE</span>
                 <span class="logo-emoji">🍬</span>
             </div>
-            <nav class="nav-menu">
+            <nav class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#products" class="nav-link">Products</a>
+                <a href="#products" class="nav-link">Shop</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#subscription" class="nav-link">Subscribe</a>
                 <a href="#wholesale" class="nav-link">Wholesale</a>
@@ -35,91 +39,70 @@
                 </div>
                 <div class="account-btn">👤</div>
                 <div class="cart-btn">🛒</div>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
 
     <main>
         <section id="home" class="hero">
-            <div class="hero-content">
-                <div class="mascot-container">
-                    <div class="mascot" id="gummy-mascot">
-                        <div class="mascot-body">
-                            <div class="mascot-face">
-                                <div class="mascot-eyes">
-                                    <div class="eye left">👁️</div>
-                                    <div class="eye right">👁️</div>
-                                </div>
-                                <div class="mascot-mouth">😊</div>
-                            </div>
-                            <div class="mascot-arms">
-                                <div class="arm left">🦾</div>
-                                <div class="arm right">🦾</div>
-                            </div>
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <span class="hero-eyebrow">Award-winning · All natural</span>
+                    <h1 class="hero-title">
+                        <span class="title-line">Premium gourmet</span>
+                        <span class="title-line highlight">gummy candies.</span>
+                    </h1>
+                    <p class="hero-subtitle">Artisan-crafted with real fruit extracts and premium ingredients. Delivered fresh to your door with free shipping on orders over $25.</p>
+                    <div class="hero-badges">
+                        <span class="badge">All Natural</span>
+                        <span class="badge">Vegan Friendly</span>
+                        <span class="badge">Gluten-Free</span>
+                        <span class="badge">4.9 ★ Rating</span>
+                    </div>
+                    <div class="trust-badges">
+                        <div class="trust-item">
+                            <span class="trust-icon">🔒</span>
+                            <span class="trust-text">Secure Checkout</span>
                         </div>
-                        <div class="mascot-speech-bubble" id="mascot-speech">
-                            <p>Hey there! I'm GUMMI! Ready for some tasty adventures? 🍬</p>
+                        <div class="trust-item">
+                            <span class="trust-icon">🚚</span>
+                            <span class="trust-text">Free Shipping $25+</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-icon">↩️</span>
+                            <span class="trust-text">30-Day Returns</span>
                         </div>
                     </div>
-                </div>
-                <h1 class="hero-title">
-                    <span class="title-line">PREMIUM GOURMET</span>
-                    <span class="title-line highlight">GUMMY CANDIES</span>
-                </h1>
-                <p class="hero-subtitle">Artisan-crafted, all-natural gummies made with real fruit extracts and premium ingredients. Free shipping on orders $25+</p>
-                <div class="hero-badges">
-                    <span class="badge">🌿 All Natural</span>
-                    <span class="badge">🍃 Vegan Friendly</span>
-                    <span class="badge">✅ Gluten-Free</span>
-                    <span class="badge">⭐ 4.9/5 Rating</span>
-                </div>
-                <div class="trust-badges">
-                    <div class="trust-item">
-                        <span class="trust-icon">🔒</span>
-                        <span class="trust-text">SSL Secure Checkout</span>
-                    </div>
-                    <div class="trust-item">
-                        <span class="trust-icon">🚚</span>
-                        <span class="trust-text">Free Shipping $25+</span>
-                    </div>
-                    <div class="trust-item">
-                        <span class="trust-icon">↩️</span>
-                        <span class="trust-text">30-Day Returns</span>
-                    </div>
-                    <div class="trust-item">
-                        <span class="trust-icon">🏆</span>
-                        <span class="trust-text">Award Winning</span>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Shop Now</button>
+                        <button class="btn btn-secondary">View Collection</button>
                     </div>
                 </div>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary">SHOP NOW</button>
-                    <button class="btn btn-secondary">VIEW COLLECTION</button>
+                <div class="hero-visual">
+                    <div class="hero-visual-ring"></div>
+                    <div class="hero-gummies">
+                        <div class="gummy gummy-1">🍓</div>
+                        <div class="gummy gummy-2">🍊</div>
+                        <div class="gummy gummy-3">🍋</div>
+                        <div class="gummy gummy-4">🍇</div>
+                        <div class="gummy gummy-5">🍒</div>
+                    </div>
                 </div>
-            </div>
-            <div class="hero-gummies">
-                <div class="gummy gummy-1">🍓</div>
-                <div class="gummy gummy-2">🍊</div>
-                <div class="gummy gummy-3">🍋</div>
-                <div class="gummy gummy-4">🍇</div>
-                <div class="gummy gummy-5">🍒</div>
-            </div>
-            <div class="graffiti-elements">
-                <div class="graffiti-splash splash-1">💥</div>
-                <div class="graffiti-splash splash-2">⚡</div>
-                <div class="graffiti-splash splash-3">🌟</div>
-                <div class="graffiti-star star-1">⭐</div>
-                <div class="graffiti-star star-2">⭐</div>
-                <div class="graffiti-star star-3">⭐</div>
-                <div class="graffiti-text text-1">SWEET!</div>
-                <div class="graffiti-text text-2">YUM!</div>
-                <div class="graffiti-text text-3">FUN!</div>
             </div>
         </section>
 
         <section id="products" class="products">
             <div class="container">
-                <h2 class="section-title">OUR PREMIUM COLLECTION</h2>
-                <p class="section-subtitle">Handcrafted with love, made with the finest ingredients</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">The Collection</span>
+                    <h2 class="section-title">Crafted to perfection.</h2>
+                    <p class="section-subtitle">Handcrafted with care, made with the finest natural ingredients from certified organic farms.</p>
+                </div>
                 
                 <div class="product-grid">
                     <div class="product-card">
@@ -155,7 +138,7 @@
                             <button class="size-btn">8oz</button>
                             <button class="size-btn">12oz</button>
                         </div>
-                        <button class="btn btn-product">ADD TO CART</button>
+                        <button class="btn btn-product">Add to Cart</button>
                     </div>
                     
                     <div class="product-card">
@@ -191,7 +174,7 @@
                             <button class="size-btn">8oz</button>
                             <button class="size-btn">12oz</button>
                         </div>
-                        <button class="btn btn-product">ADD TO CART</button>
+                        <button class="btn btn-product">Add to Cart</button>
                     </div>
                     
                     <div class="product-card">
@@ -226,7 +209,7 @@
                             <button class="size-btn">8oz</button>
                             <button class="size-btn">12oz</button>
                         </div>
-                        <button class="btn btn-product">ADD TO CART</button>
+                        <button class="btn btn-product">Add to Cart</button>
                     </div>
                     
                     <div class="product-card">
@@ -252,7 +235,7 @@
                             <button class="size-btn">8oz</button>
                             <button class="size-btn">12oz</button>
                         </div>
-                        <button class="btn btn-product">ADD TO CART</button>
+                        <button class="btn btn-product">Add to Cart</button>
                     </div>
                     
                     <div class="product-card">
@@ -279,7 +262,7 @@
                             <button class="size-btn">8oz</button>
                             <button class="size-btn">12oz</button>
                         </div>
-                        <button class="btn btn-product">ADD TO CART</button>
+                        <button class="btn btn-product">Add to Cart</button>
                     </div>
                     
                     <div class="product-card">
@@ -306,7 +289,7 @@
                             <button class="size-btn active">16oz</button>
                             <button class="size-btn">24oz</button>
                         </div>
-                        <button class="btn btn-product">ADD TO CART</button>
+                        <button class="btn btn-product">Add to Cart</button>
                     </div>
                 </div>
             </div>
@@ -316,8 +299,11 @@
             <div class="container">
                 <div class="about-content">
                     <div class="about-text">
-                        <h2 class="section-title">THE HER BITE DIFFERENCE</h2>
-                        <p class="section-subtitle">Crafted with excellence, trusted by thousands</p>
+                        <div class="section-header">
+                            <span class="section-eyebrow">Our Story</span>
+                            <h2 class="section-title">The HER BITE difference.</h2>
+                            <p class="section-subtitle">Crafted with excellence, trusted by over 500,000 customers worldwide.</p>
+                        </div>
                         <div class="mascot-story">
                             <div class="story-mascot">
                                 <div class="mini-mascot">🍬</div>
@@ -342,12 +328,12 @@
                         </div>
                         <div class="features">
                             <div class="feature">
-                                <span class="feature-icon">�</span>
+                                <span class="feature-icon">🌿</span>
                                 <h4>Premium Ingredients</h4>
                                 <p>We source the finest fruits and natural ingredients from certified organic farms worldwide.</p>
                             </div>
                             <div class="feature">
-                                <span class="feature-icon">�</span>
+                                <span class="feature-icon">🔬</span>
                                 <h4>Science-Backed Formulation</h4>
                                 <p>Each gummy is crafted by food scientists to ensure perfect texture, flavor, and nutritional value.</p>
                             </div>
@@ -377,8 +363,11 @@
 
         <section id="testimonials" class="testimonials">
             <div class="container">
-                <h2 class="section-title">WHAT OUR CUSTOMERS SAY</h2>
-                <p class="section-subtitle">Real reviews from verified buyers</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Testimonials</span>
+                    <h2 class="section-title">Loved by thousands.</h2>
+                    <p class="section-subtitle">Real reviews from verified buyers who taste the difference.</p>
+                </div>
                 
                 <div class="testimonials-grid">
                     <div class="testimonial-card">
@@ -450,8 +439,11 @@
 
         <section id="nutrition" class="nutrition">
             <div class="container">
-                <h2 class="section-title">NUTRITION & QUALITY</h2>
-                <p class="section-subtitle">Transparent about what goes into our premium gummies</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Transparency</span>
+                    <h2 class="section-title">Nutrition & quality.</h2>
+                    <p class="section-subtitle">Full transparency about what goes into every premium gummy we make.</p>
+                </div>
                 
                 <div class="nutrition-content">
                     <div class="nutrition-info">
@@ -536,8 +528,11 @@
 
         <section id="faq" class="faq">
             <div class="container">
-                <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
-                <p class="section-subtitle">Everything you need to know about HER BITE gummies</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Support</span>
+                    <h2 class="section-title">Common questions.</h2>
+                    <p class="section-subtitle">Everything you need to know about HER BITE gummies.</p>
+                </div>
                 
                 <div class="faq-grid">
                     <div class="faq-item">
@@ -605,8 +600,11 @@
 
         <section id="contact" class="contact">
             <div class="container">
-                <h2 class="section-title">GET IN TOUCH</h2>
-                <p class="section-subtitle">We're here to help and answer any questions</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Contact</span>
+                    <h2 class="section-title">Get in touch.</h2>
+                    <p class="section-subtitle">We're here to help and answer any questions you may have.</p>
+                </div>
                 
                 <div class="contact-content">
                     <div class="contact-info">
@@ -670,7 +668,7 @@
                             <div class="form-group">
                                 <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -679,8 +677,11 @@
 
         <section id="subscription" class="subscription">
             <div class="container">
-                <h2 class="section-title">HER BITE SUBSCRIPTION CLUB</h2>
-                <p class="section-subtitle">Never run out of your favorite gummies! Save 20% + get exclusive perks</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Subscription</span>
+                    <h2 class="section-title">Never run out.</h2>
+                    <p class="section-subtitle">Save 20% on every order plus exclusive perks, gifts, and early access to new flavors.</p>
+                </div>
                 
                 <div class="subscription-content">
                     <div class="subscription-benefits">
@@ -737,7 +738,7 @@
                                     <span class="feature-item">✓ Free Shipping</span>
                                     <span class="feature-item">✓ Monthly Gift</span>
                                 </div>
-                                <button class="btn btn-plan">STARTER PLAN</button>
+                                <button class="btn btn-plan">Choose Starter</button>
                             </div>
                             
                             <div class="plan-card popular">
@@ -757,7 +758,7 @@
                                     <span class="feature-item">✓ Monthly Gift</span>
                                     <span class="feature-item">✓ VIP Access</span>
                                 </div>
-                                <button class="btn btn-plan">FAMILY PLAN</button>
+                                <button class="btn btn-plan">Choose Family</button>
                             </div>
                             
                             <div class="plan-card">
@@ -777,7 +778,7 @@
                                     <span class="feature-item">✓ VIP Access</span>
                                     <span class="feature-item">✓ Limited Editions</span>
                                 </div>
-                                <button class="btn btn-plan">PREMIUM PLAN</button>
+                                <button class="btn btn-plan">Choose Premium</button>
                             </div>
                         </div>
                     </div>
@@ -787,8 +788,11 @@
 
         <section id="wholesale" class="wholesale">
             <div class="container">
-                <h2 class="section-title">WHOLESALE & BULK ORDERS</h2>
-                <p class="section-subtitle">Perfect for retailers, events, and businesses</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Partnerships</span>
+                    <h2 class="section-title">Wholesale & bulk.</h2>
+                    <p class="section-subtitle">Perfect for retailers, events, and businesses looking to stock premium gummies.</p>
+                </div>
                 
                 <div class="wholesale-content">
                     <div class="wholesale-info">
@@ -877,7 +881,7 @@
                             <div class="form-group">
                                 <textarea id="wholesale-message" name="wholesale-message" placeholder="Tell us about your business needs..." rows="4"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">REQUEST WHOLESALE PRICING</button>
+                            <button type="submit" class="btn btn-primary">Request Pricing</button>
                         </form>
                     </div>
                 </div>
@@ -886,8 +890,11 @@
 
         <section id="press" class="press">
             <div class="container">
-                <h2 class="section-title">AS SEEN IN</h2>
-                <p class="section-subtitle">Trusted by leading publications and influencers</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Press</span>
+                    <h2 class="section-title">As seen in.</h2>
+                    <p class="section-subtitle">Trusted by leading publications and health-conscious communities.</p>
+                </div>
                 
                 <div class="press-logos">
                     <div class="press-logo">📰</div>
@@ -939,15 +946,18 @@
                         <span class="affiliate-benefit">📊 Real-Time Analytics</span>
                         <span class="affiliate-benefit">🎯 Marketing Materials</span>
                     </div>
-                    <button class="btn btn-secondary">BECOME AFFILIATE</button>
+                    <button class="btn btn-secondary">Become an Affiliate</button>
                 </div>
             </div>
         </section>
 
         <section id="tasting-experience" class="tasting-experience">
             <div class="container">
-                <h2 class="section-title">VIRTUAL TASTING EXPERIENCE</h2>
-                <p class="section-subtitle">Close your eyes and imagine the flavors dancing on your tongue</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Experience</span>
+                    <h2 class="section-title">Virtual tasting.</h2>
+                    <p class="section-subtitle">Explore each flavor's unique profile — from first bite to lasting aftertaste.</p>
+                </div>
                 
                 <div class="tasting-content">
                     <div class="tasting-station">
@@ -1055,16 +1065,19 @@
                 </div>
                 
                 <div class="tasting-actions">
-                    <button class="btn btn-taste" id="taste-button">TASTE THIS FLAVOR</button>
-                    <button class="btn btn-secondary" id="compare-button">COMPARE FLAVORS</button>
+                    <button class="btn btn-taste" id="taste-button">Taste This Flavor</button>
+                    <button class="btn btn-secondary" id="compare-button">Compare Flavors</button>
                 </div>
             </div>
         </section>
 
         <section id="gummy-lab" class="gummy-lab">
             <div class="container">
-                <h2 class="section-title">THE GUMMY LABORATORY</h2>
-                <p class="section-subtitle">Discover the art and science behind perfect gummies</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Behind the Scenes</span>
+                    <h2 class="section-title">The gummy laboratory.</h2>
+                    <p class="section-subtitle">Discover the art and science behind every perfectly crafted gummy.</p>
+                </div>
                 
                 <div class="lab-content">
                     <div class="lab-process">
@@ -1145,8 +1158,11 @@
 
         <section id="mascot-merch" class="mascot-merch">
             <div class="container">
-                <h2 class="section-title">GUMMI'S FAN CLUB</h2>
-                <p class="section-subtitle">Get your official GUMMI merchandise and join the fun!</p>
+                <div class="section-header">
+                    <span class="section-eyebrow">Merchandise</span>
+                    <h2 class="section-title">GUMMI's fan club.</h2>
+                    <p class="section-subtitle">Official HER BITE merchandise for the devoted gummy enthusiast.</p>
+                </div>
                 
                 <div class="merch-content">
                     <div class="mascot-showcase">
@@ -1169,7 +1185,7 @@
                             <h4>GUMMI T-Shirt</h4>
                             <p>Official mascot design</p>
                             <div class="merch-price">$19.99</div>
-                            <button class="btn btn-merch">GET SHIRT</button>
+                            <button class="btn btn-merch">Shop Shirt</button>
                         </div>
                         
                         <div class="merch-item">
@@ -1177,7 +1193,7 @@
                             <h4>GUMMI Plush</h4>
                             <p>Soft cuddly mascot toy</p>
                             <div class="merch-price">$14.99</div>
-                            <button class="btn btn-merch">GET PLUSH</button>
+                            <button class="btn btn-merch">Shop Plush</button>
                         </div>
                         
                         <div class="merch-item">
@@ -1185,7 +1201,7 @@
                             <h4>GUMMI Backpack</h4>
                             <p>Carry gummies in style</p>
                             <div class="merch-price">$24.99</div>
-                            <button class="btn btn-merch">GET BAG</button>
+                            <button class="btn btn-merch">Shop Bag</button>
                         </div>
                         
                         <div class="merch-item">
@@ -1193,7 +1209,7 @@
                             <h4>GUMMI Phone Case</h4>
                             <p>Protect with mascot power</p>
                             <div class="merch-price">$12.99</div>
-                            <button class="btn btn-merch">GET CASE</button>
+                            <button class="btn btn-merch">Shop Case</button>
                         </div>
                     </div>
                 </div>
@@ -1202,11 +1218,11 @@
 
         <section class="cta">
             <div class="container">
-                <h2 class="cta-title">READY TO BITE INTO HAPPINESS?</h2>
-                <p class="cta-subtitle">Join the HER BITE family and get 10% off your first order!</p>
+                <h2 class="cta-title">Ready to taste the difference?</h2>
+                <p class="cta-subtitle">Join the HER BITE family and receive 10% off your first order.</p>
                 <div class="cta-form">
-                    <input type="email" placeholder="Enter your email for sweet deals!" class="email-input">
-                    <button class="btn btn-cta">GET MY DISCOUNT!</button>
+                    <input type="email" placeholder="Enter your email address" class="email-input">
+                    <button class="btn btn-cta">Get 10% Off</button>
                 </div>
             </div>
         </section>
@@ -1220,7 +1236,7 @@
                         <span class="logo-text">HER BITE</span>
                         <span class="logo-emoji">🍬</span>
                     </div>
-                    <p>Making the world sweeter, one gummy at a time!</p>
+                    <p>Premium gourmet gummies, crafted with real fruit and made for those who appreciate the finer things.</p>
                 </div>
                 
                 <div class="footer-links">
@@ -1243,7 +1259,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 HER BITE. All rights reserved. Made with 💕 and lots of gummies!</p>
+                <p>&copy; 2024 HER BITE. All rights reserved. &bull; Made with <span style="color: #ff4757;">♥</span> by <a href="https://www.curiouskaizer.com/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;" title="Curious Kaizer - Web Development Company in Delhi">Curious Kaizer</a></p>
             </div>
         </div>
     </footer>
